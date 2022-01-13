@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Google Font -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Style CSS -->
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Calculator JavaScript</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="calculadora">
+        <div class="display">
+          <div id="valor-anterior"></div>
+          <div id="valor-actual"></div>
+        </div>
+        <button class="clear col-2">AC</button>
+        <button class="delete">&larr;</button>
+        <button class="operador" value="division">/</button>
+        <button class="numero">7</button>
+        <button class="numero">8</button>
+        <button class="numero">9</button>
+        <button class="operador" value="multiplicar">*</button>
+        <button class="numero">4</button>
+        <button class="numero">5</button>
+        <button class="numero">6</button>
+        <button class="operador" value="restar">-</button>
+        <button class="numero">1</button>
+        <button class="numero">2</button>
+        <button class="numero">3</button>
+        <button class="operador" value="sumar">+</button>
+        <button class="numero col-2">0</button>
+        <button class="numero">.</button>
+        <button class="operador" value="igual">=</button>
+      </div>
+    </div>
+
+    <script src="js/Display.js"></script>
+    <script src="js/Calculadora.js"></script>
+    <script src="js/app.js" defer></script>
+  </body>
+</html>
+<!-- onclick="display.borrar()" -->
